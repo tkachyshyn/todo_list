@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.todo-lists{
+    display: flex;
+    flex-direction: column;
+}
+
+*{
+    font-family: "Roboto";
+    transition: 0.3s;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    border:0px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 5px rgba(120, 120, 120, 0.1);
+    border-radius: 10px;
+    padding-left:10px;
+    font-size: 16px;
+}
+
+button{
+    height: 40px;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+    border: 0px;
+    box-shadow: 0px 0px 4px 5px rgba(120, 120, 120, 0.1);
+    cursor: pointer;
+    background-color: rgb(255, 56, 92);
+    color: white;
+    font-size: 16px;
+
+}
+
+.todo-form{
+    display: flex;
+    justify-content: center;
+}
+
+.all-todos{
+margin-left:auto;
+margin-right: auto;
+width: 440px;
+}
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    box-shadow: 0px 0px 4px 5px rgba(120, 120, 120, 0.1);
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.todo-title {
+    margin-left:auto;
+    margin-right: auto;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+    align-items: center;
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.complete{
+    box-shadow: 0px 0px 4px 5px rgba(57, 179, 0, 0.5) !important;
+    opacity: 0.3;
+    cursor: not-allowed;
+
+}
+.delete-icon, .edit-icon {
+    cursor: pointer;
+    margin-left:10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.note-item{
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left:20px;
+    padding-right: 20px;
+    align-items: center;
+    min-height: 50px;
+    width: 400px;
+    box-shadow: 0px 0px 4px 5px rgba(120, 120, 120, 0.1);
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.note-item p{
+    max-width: 300px;
+}
+
+.note-item div{
+    display: flex;
+    gap: 5px;
+}
